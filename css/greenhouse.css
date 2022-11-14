@@ -1,0 +1,363 @@
+/* FONTS <3 */
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap');
+@import url("https://use.typekit.net/zgd5lnj.css");
+
+@import url("https://use.typekit.net/zgd5lnj.css");
+/* font-family: vinila, sans-serif;
+font-weight: 300;
+font-style: normal; */
+
+@import url("https://use.typekit.net/zgd5lnj.css");
+/* font-family: vinila, sans-serif;
+font-weight: 300;
+font-style: italic; */
+
+
+
+header{
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px;
+    padding: 0;
+    padding-bottom: 400px;
+    border: none;
+
+
+}
+
+/* "THE GREENHOUSE" TITLE */
+h1{
+    color: #F8FFF7;
+    text-align: center;
+    font-size:80px;
+    font-family: glodok, sans-serif;
+    padding-top: 300px;
+    margin: 0px;
+
+}
+
+/* WHAT'S IN STOCK */
+h2{
+    background-color:transparent;
+    color: #7BAD77;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 100px;
+    padding-top: 200px;
+    margin-bottom: 10px;
+}
+
+
+/* HERE AT THE GREENHOUSE */
+h3{
+    background-color:transparent;
+    color: white;
+    /* font-family: 'Inter Tight', sans-serif; */
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-left: 600px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-top: 100px;
+    font-family: vinila, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+/* KEEP IN TOUCH */
+
+#keepintouch {
+    background-color:transparent;
+    color: #7BAD77;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 80px;
+    margin-left: 450px;
+    margin-bottom: 10px;
+    margin-top: 100px;   
+    text-align: left;
+    background-color: transparent;
+}
+
+/* JOIN OUR MAILING LIST */
+
+h4{
+    font-family: 'Archivo', sans-serif;
+    color:#F4F8D1 ;
+    font-size: 13px;
+    padding-right: 810px;
+    text-decoration: underline;
+    background-color: transparent;
+    background-color: transparent;
+}
+
+ form input {
+    font-family:'Archivo', sans-serif;
+    border-radius: 50px;
+    border: 3px solid #F4F8D1;
+    margin: 10px;
+    height: 30px;
+    width: 350px;
+    font-size: 14px;
+    padding-left: 20px; 
+    background-color: transparent;
+}
+::placeholder {
+    color: #F4F8D1;
+    font-family:'Archivo', sans-serif;
+}
+#firstname {
+    margin-left: 50px;
+    color: #f4f8d1b8;
+    }
+#lastname {
+    margin-left: 200px;
+    color: #f4f8d1b8;
+}
+
+form input[type=submit] {
+    font-family:'Archivo', sans-serif;
+    color:#7BAD77 ;
+    border-radius: 50px;
+    border: 3px solid #F4F8D1;
+    background-color:#F4F8D1 ;
+    height: 30px;
+    width: 200px;
+    margin-right: 740px ;
+    padding-left: 10px;
+}
+
+
+
+
+/* JOIN US ON SOCIAL MEDIA */
+#joinus {
+    font-family: 'Inter Tight', sans-serif;
+    color: #7BAD77;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+
+
+/* BODY paragraph text */
+body {
+    background-color: #C7E6C4;
+    font-family: 'Archivo', sans-serif;
+    color: #7BAD77;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-top: 0px;
+    padding-top: 0px;
+}
+
+/*  NAV BAR */
+nav ul{
+    align-items: center;
+    list-style-type: none;
+    color: #3aa333;
+    overflow: hidden;
+    background-color: #f8fff7;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+nav ul li{
+    display: inline;
+    /* font-family: 'Inter Tight', sans-serif; */
+    background-color: transparent;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;   
+    font-family: vinila, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    
+}
+#home {
+    color: #7BAD77;
+    text-decoration: #7BAD77;
+    font-size: 15px;
+    font-family: vinila, sans-serif;
+    font-weight: 400px;
+}
+#shop {
+    color: #7BAD77;
+    text-decoration: #7BAD77;
+    font-size: 15px;
+}
+#contact {
+    color: #7BAD77;
+    text-decoration: #7BAD77;
+    font-size: 15px;
+}
+#about {
+    color: #7BAD77;
+    text-decoration: #7BAD77;
+    font-size: 15px;
+}
+
+
+
+/* SOCIAL LINKS  */
+ul{
+    display: block;
+    border: #3aa333;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 14px;
+    list-style-type: none;
+    padding: 0px;
+    color: #7BAD77;
+}
+ul li {
+    background-color: white;
+    padding: 0;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    text-decoration: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 12px;
+    color: #7BAD77;
+
+}
+#facebook {
+    color: #7BAD77;
+    text-decoration: #7BAD77;
+}
+#twitter {
+    color: #7BAD77;
+    text-decoration: #7BAD77;
+}
+#insta {
+    color: #7BAD77;
+    text-decoration: #7BAD77;
+}
+
+
+
+/* PARAGRAPH STYLE for REVIEW  */
+p.solid {border-style: solid;
+    border-color: #7BAD77;
+    border-width: 3px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left:300px;
+    padding-right: 70px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 200px;
+    font-size: 12px;
+}
+#pfp {
+    float: left;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+#arrowright {
+    float: right;
+    margin-right: 315px;
+    margin-top: 50px;
+
+}
+#arrowleft {
+    float: left;
+    margin-left: 315px;
+    margin-top: 50px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #9bcb97;
+    height: 250px;}
+
+#footer-image {
+    margin-left: 0px;
+    margin-right: 150px;
+    margin-top: 75px;
+    
+}
+
+/* "the greenhouse" footer */
+#ghfooter{
+    font-family: glodok, sans-serif;
+    font-size: 35px;
+    background-color: transparent;
+    float: left;
+    margin-top: 110px;
+    margin-left: 95px;
+}
+
+
+/* address */
+#address {
+    float: right;
+    text-align: left;
+    margin-top: 100px;
+    margin-right: 100px;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 14px; 
+}
+
+
+
+/* changes link colors */
+a {
+    color: #7BAD77;
+    text-decoration: #7BAD77;
+    }
+
+
+/*       BUTTONS       */
+button{
+    display: inline-block;
+    font-family: 'Inter Tight', sans-serif;
+    background-color: #7CAD78;
+    color: white;
+    text-align: center;
+    font-size:20px;
+}
+#seelocations {
+    border-radius: 50px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 300px;
+    height: 20px;
+    margin-left: 0px;
+    margin-right: 20px;}
+#gotostore {
+    border-radius: 50px;
+    border: none;
+    padding-left: 800px;
+    width: 1300px;
+    height: 35px;
+    margin-bottom: 80px;
+}
+
+#planticon {
+    float: left;
+    margin-left: 200px;
+    margin-top: 80px;
+}
