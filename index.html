@@ -7,59 +7,76 @@
 	<link href="css/greenhouse.css" rel="stylesheet" type="text/css" >
 </head>
 
-
+<body>
 <header>
 		<!-- add shopping cart icon  -->
 		<h1>THE GREENHOUSE</h1>
-
 		<nav>
 			<ul>
 				<li><a id="home" class="active" href="#home">Home</a> </li>
 				<li><a id="shop" href="shop.html">Shop</a></li>
-				<li><a id="plantcare" href="#plantcare">Plant Care</a></li>
-				<li><a id="about" href="#about">About</a></li>
+				<li><a id="plantcare" href="plantcare.html">Plant Care</a></li>
+				<li><a id="about" href="about.html">About</a></li>
 				<li><a id="contact" href="contact.html">Contact</a></li>
-
 			</ul>
 		</nav>
+	<img id="downarrow" height="200" width="200" src="images/downarrow.png" alt="down arrow">
 </header>
-		<img id="planticon" height="350" width="350" src="images/tan_plant_icon.png" alt="tan plant icon">
- 		<h3> Here at The Greenhouse, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-		 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</h3>
+
+<section>
+ 		<div id="section">
+
+		<h3> Here at The Greenhouse, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+		 labore et dolore magna aliqua. Ut enim ad minim veniam, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+		 labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</h3>
 		<a href=seelocations.html type="button" id="seelocations">See Locations</a>
-<div>
+		</div>
+</section>
+
+<div id="review">
 	<img id="arrowright" height="20" width="20" src="images/arrowright.png" alt="right pointing arrow">	
 	<img id="arrowleft" height="20" width="20" src="images/arrowleft.png" alt="left pointing arrow">
 	<img id="pfp" height="120" width="120" src="images/pfp.png" alt="Michelles profile picture">
 
-	<p id="fabulous" class="solid">Fabulous company… The items were in great condition and only took a few weeks to arrive. Love what I got!!
-		- Michelle C.</p>
+	<p id="fabulous">Fabulous company… 
+		The items were in great condition and only took
+		a few weeks to arrive. I had to replace a broken item
+		and they were quick with great customer service. I love what I got!
+		<br>Michelle
+	</p>
 </div>	
+
 
 <h2>What's in Stock ... </h2>
 
 <p>
-<img height="400" width="320" src="images/plant1.jpg" alt="hands holding plant1"> <img height="400" width="320" src="images/plant2.jpg" alt="hands holding plant2"> <img height="400" width="320" src="images/plant3.jpg" alt="hands holding plant3"> <img height="400" width="320" src="images/plant4.jpg" alt="hands holding plant4">
+	<section>
+		<img id="plant1" height="400" width="320" src="images/plant1.jpg" alt="hands holding plant1">
+		<img id="plant2" height="400" width="320" src="images/plant2.jpg" alt="hands holding plant2">
+		<img id="plant3" height="400" width="320" src="images/plant3.jpg" alt="hands holding plant3">
+		<img id="plant4" height="400" width="320" src="images/plant4.jpg" alt="hands holding plant4">
+	</section>
+
 </p>
 
 <br>
-<button type="button" id="gotostore">Go To Store</button>
+<button type="button" id="gotostore">Go to store</button>
 <!-- put a clickable arrow  -->
 <br>
 
 
 <!-- KEEP IN TOUCH SECTION -->
+<section id="mailinglist">
 	
 <p id="keepintouch">Keep In Touch </p>	
 
-<section>
-	<h4>join our mailing list</h4>
+<h4>join our mailing list</h4>
 <form name="mailinglist" action="#" method="post">
 	<input type="text" size="20" id="firstname" placeholder="First Name...">
-	<input type="text" size="20" id="lastname" placeholder="Last Name..."/> <br/>
+	<input type="text" size="20" id="email" placeholder="Email Address..."/> <br/>
 	<input type="submit" href="#" value="click to submit"/>
-
 </form>
+
 </section>
 
 
@@ -74,7 +91,7 @@
 <!-- <a href="#" id="email">EMAIL US!__________________________________________________________________________________________________THEGREENHOUSERVA@GMAIL.COM</a> -->
 
 
-<p id="joinus">JOIN US ON SOCIAL MEDIA</p>
+<p id="joinus">join us on social media</p>
 
 	<img height="300" width="300" src="images/social1.jpg" alt="purple flowers">
 	<img height="300" width="300" src="images/social2.jpg" alt="pouring water into plant">
