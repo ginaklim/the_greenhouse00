@@ -1,0 +1,218 @@
+@import url("https://use.typekit.net/zgd5lnj.css");
+@import url("https://use.typekit.net/zgd5lnj.css");
+
+
+body{
+    background-color: #E9F2E9;
+    font-family: vinila, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #7BAD77;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+header {
+    background-color: #7CAD78;
+    padding-bottom: 60px;
+}
+
+h1{
+    color: #F8FFF7;
+    text-align: left;
+    float: left;
+    font-size:30px;
+    font-family: glodok, sans-serif;
+    padding-top: 15px;
+    margin: 0%;
+    margin-left: 5%;
+}
+
+nav ul {
+    float: right;
+    align-items: left;
+    list-style-type: none;
+    align-items: right;
+    background-color: transparent;
+    margin-right: 30px;
+    text-decoration: none;
+    font-family: vinila, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 30px;
+    font-weight: 700;
+}
+
+a {
+    color: #F8FFF7;
+    text-decoration: #7BAD77;
+}
+
+#catagories{
+    background-color: white;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 2px;
+    padding-bottom: 40px;
+    margin-bottom: 7%;
+
+}
+
+#othernav {
+    background-color: transparent;
+    font-size: 15px;
+    font-family: vinila, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin: 6px;
+}
+#othernav a {
+    color: #7BAD77;
+}
+#othernav a:hover {
+    background-color: #7BAD77;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+#othernav a:active {
+    background-color: #7BAD77;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+#othernav nav ul li {
+    list-style-type: none;
+}
+
+h2 {
+    font-family: vinila, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 50px;
+    margin-bottom: 5px;
+    color: #7BAD77;
+    background-color: transparent;
+    text-align: center;
+}
+
+.images{
+    padding-left: 10%;
+    background-color: white;
+    height: 500px;
+    margin-left: 16%;    
+    margin-right: 16%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;    
+    padding-bottom: 20px ;
+
+}
+
+/* space between images */
+.imagespace{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* more box */
+.more{
+
+    background-color: transparent;
+    float: right;
+    color: #7BAD77;
+    margin-right: 16%;
+    float: right;
+    font-family: vinila, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.morebutton{
+    font-family: vinila, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #7BAD77;
+    background-color: pink;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+h4 {
+    font-family: vinila, sans-serif;
+    font-weight: 700;
+    color: #7BAD77;
+    display: inline;
+    font-size: 20px;
+}
+
+.text{
+    font-family: vinila, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #7BAD77;
+    text-align: left;
+    font-size: 25px;    
+    margin-left: 90px;
+    margin-right: 90px;
+    text-decoration: underline;
+}
+
+#bottomtext{
+    background-color: rgba(255, 255, 255, 0.589);
+    margin-top: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bottomimage{
+    margin-left: 80px;
+    margin-right: 70px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+
+
+
+footer {
+    background-color: #9bcb97;
+    height: 200px;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+#footer-image {
+    float: left;
+    margin-left: 30%;
+    margin-top: 30px;
+
+    
+}
+#ghfooter{
+    font-family: glodok, sans-serif;
+    font-size: 35px;
+    background-color: transparent;
+    float: left;
+    margin-left: 100px;
+    margin-top: 80px;
+
+}
+#address {
+    text-align: left;
+    font-size: 14px; 
+    float: right;
+    margin-right: 150px;
+    margin-top: 50px;
+}
