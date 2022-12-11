@@ -1,0 +1,167 @@
+@import url("https://use.typekit.net/zgd5lnj.css");
+
+
+body{
+    background-color: #E9F2E9;
+    font-family: vinila, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #7BAD77;
+    text-decoration: underline;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    background-color: #7CAD78;
+    padding-bottom: 100px;
+}
+
+/* topnav  */
+h1{
+    color: #F8FFF7;
+    text-align: left;
+    float: left;
+    font-size:30px;
+    font-family: glodok, sans-serif;
+    padding-top: 30px;
+    margin: 0%;
+    margin-left: 5%;
+}
+nav ul {
+    float: right;
+    align-items: left;
+    list-style-type: none;
+    align-items: right;
+    background-color: transparent;
+    margin-right: 40px;
+    text-decoration: none;
+    font-family: vinila, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+nav ul li{
+    display: inline;
+    margin: 30px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+a {
+    color: #F8FFF7;
+    text-decoration: #7BAD77;
+}
+/* end topnav */
+
+h2 {
+    font-family: vinila, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #7BAD77;
+    text-align: center;
+}
+h4 {
+    font-family: vinila, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #7BAD77;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 20%;
+}
+/* fa q section */
+#faq {
+    float: left;
+    margin-top: 10%;
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+#lorem{
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-bottom: 140px;
+    padding-bottom: 0px;
+}
+
+
+#plantfamily{
+    float: left;
+    margin-top: 10%;
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    margin-left: 20px;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+/* #plantimage{
+
+} */
+
+
+/* tips & tricks, pest control, common issues, potting */
+#other {
+    /* float: right; */
+    margin-top: 10%;
+    background-color: transparent;
+}
+.other {
+    background-color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 200px;
+    margin-left: 60%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+}
+h3 {
+    font-family: vinila, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #7BAD77;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background-color: #9bcb97;
+    height: 200px;
+    width: 100%;
+    margin-top: 50%;
+    margin-bottom: 0;
+}
+#footer-image {
+    float: left;
+    margin-left: 30%;
+    margin-top: 30px;
+
+    
+}
+#ghfooter{
+    font-family: glodok, sans-serif;
+    font-size: 35px;
+    background-color: transparent;
+    float: left;
+    margin-left: 100px;
+    margin-top: 80px;
+
+}
+#address {
+    text-align: left;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 14px; 
+    float: right;
+    margin-right: 150px;
+    margin-top: 50px;
+}
